@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="1.0" prefHeight="631.0" prefWidth="470.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" opacity="0.97" prefHeight="159.0" prefWidth="470.0" style="-fx-background-color: #275787;">
+      <children>
+        <Label fx:id="resultlabel" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" layoutX="0.0" layoutY="0.0" prefHeight="159.0" prefWidth="470.0" text="" textFill="WHITE">
+          <font>
+            <Font size="60.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+    <Button fx:id="resset" layoutX="0.0" layoutY="159.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="AC">
+      <font>
+        <Font size="35.0" fx:id="x1" />
+      </font>
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button font="$x1" layoutX="114.0" layoutY="159.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="+/_">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="percent" font="$x1" layoutX="228.0" layoutY="159.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="\%">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button layoutX="342.0" layoutY="159.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="128.0" styleClass="borderbtn" text="/" textFill="WHITE">
+      <font>
+        <Font size="40.0" fx:id="x3" />
+      </font>
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="multiply" font="$x1" layoutX="342.0" layoutY="254.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="128.0" styleClass="borderbtn" text="X" textFill="WHITE">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="minus" layoutX="342.0" layoutY="349.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="128.0" styleClass="borderbtn" text="-" textFill="WHITE">
+      <font>
+        <Font size="50.0" fx:id="x2" />
+      </font>
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="plus" font="$x2" layoutX="342.0" layoutY="444.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="128.0" styleClass="borderbtn" text="+" textFill="WHITE">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="result" font="$x2" layoutX="342.0" layoutY="536.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="128.0" styleClass="borderbtn" text="=" textFill="WHITE">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="seven" font="$x2" layoutX="0.0" layoutY="253.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="7">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="four" font="$x2" layoutX="0.0" layoutY="346.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="4">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="one" font="$x2" layoutX="0.0" layoutY="439.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="113.9998779296875" styleClass="calcbbtn" text="1">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="zero" alignment="BASELINE_LEFT" font="$x2" layoutX="0.0" layoutY="536.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="228.0" styleClass="calcbbtn" text="0">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="dot" font="$x2" layoutX="228.0" layoutY="536.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text=".">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="two" font="$x2" layoutX="114.0" layoutY="439.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="2">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="three" font="$x2" layoutX="228.0" layoutY="440.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="3">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="five" font="$x2" layoutX="114.0" layoutY="347.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="5">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="eight" font="$x2" layoutX="114.0" layoutY="254.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="8">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="nine" font="$x2" layoutX="228.0" layoutY="253.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="9">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+    <Button fx:id="six" font="$x2" layoutX="228.0" layoutY="348.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="114.0" styleClass="calcbbtn" text="6">
+      <stylesheets>
+        <URL value="@../../../../Desktop/style.css" />
+      </stylesheets>
+    </Button>
+  </children>
+</AnchorPane>
